@@ -3,12 +3,14 @@ package glenwa.ly.springbootquickstart.course;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import glenwa.ly.springbootquickstart.topic.Topic;
 
 @Entity
+//@Table(name = "course");
 public class Course {
 
 	@Id
